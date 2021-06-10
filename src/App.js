@@ -1,23 +1,23 @@
-import logo from './logo.svg';
 import './App.css';
+import About from './components/about/about';
+import Events from './components/events/events';
+import Menu from './components/menu/our-menu';
+import NavBar from './components/navigation/nav-bar';
+import Contact from './components/contact/contact';
+import Footer from './components/footer/footer';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      {/* <h1>Iqhude African Cuisine</h1> */}
+
+      {/* <img src={IqhudeLogo} width="500" height="500" alt="Iqhude Logo" /> */}
+      <NavBar />
+      <About />
+      <Menu />
+      <Events />
+      <Contact />
+      <Footer />
     </div>
   );
 }

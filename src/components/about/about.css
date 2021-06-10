@@ -1,0 +1,42 @@
+section {
+    padding: 100px;
+}
+
+.row {
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.row .col50 {
+    position: relative;
+    width: 48%;
+}
+
+.titleText {
+    color:  #111;
+    font-size: 2em;
+    font-weight: 300;
+}
+
+.titleText span {
+    color: rgb(218, 165, 32);
+    font-weight: 700;
+    font-size: 1.5em;
+}
+
+.row .col50 .imgBx {
+    position: relative;
+    width: 100%;
+    min-height: 300px;
+}
+
+.row .col50 .imgBx img {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 60%;
+    height: 30%;
+    object-fit: cover;
+}
