@@ -9,7 +9,7 @@ const Events = () => {
             <section className="events" id="events">
                 <div className="title">
                     <h2>Our Past Catering <span>E</span>vents</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+                    <p>We also do catering for events, these are some of the events we catered for..</p>
                 </div>
                 <div className="content">
                     <div className="box">

@@ -7,15 +7,15 @@ const About = () => {
         <>
             <section className="about" id="about">
                 <div className="row">
-                    <div className="col50"> 
+                    <div className="col50">
                         <h2 className="titleText"><span>A</span>bout Us</h2>
                         <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
-                            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
-                            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo 
-                            consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse 
-                            cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non 
-                            proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                            Iqhude African Cuisine was founded in 2013 by Sizwe Luther Makapela who
+                            started his business in a garage serving a few customers in his neighbourhood.
+                            Serving delicious South African cuisines with a different twist and a flavourful menu and recipes. 
+                            The interests grew from serving only on weekends to everyday. 
+                            Iqhude African Cuisine has been commended by many for the delicious food and those who had the luxury of tasting our meals.
+                            Umleqwa (which means free range chicken) is our number one selling dish that is prepared in our unique style for more tender and flavour.
                         </p>
                     </div>
                     <div className="col50">

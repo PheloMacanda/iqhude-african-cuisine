@@ -4,6 +4,7 @@ import Events from './components/events/events';
 import Menu from './components/menu/our-menu';
 import NavBar from './components/navigation/nav-bar';
 import Contact from './components/contact/contact';
+import OurValues from './components/our_values/our_values';
 import Footer from './components/footer/footer';
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
       <NavBar />
       <About />
       <Menu />
+      <OurValues />
       <Events />
       <Contact />
       <Footer />

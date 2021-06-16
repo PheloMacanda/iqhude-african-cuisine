@@ -1,20 +1,22 @@
 import './nav-styles.css';
+import { Link } from 'react-scroll';
 
 const NavBar = () => {
 
     return (
         <>
-            <header>
+            <header className="header">
                 <a href="/" className="logo">Iqhude African Cuisine<span>.</span></a>
                 <div className="menuToggle">
                     
                 </div>
                 <ul className="navigation">
-                    <li><a href="/">Home</a></li>
-                    <li><a href="/about">About</a></li>
-                    <li><a href="/menu">Menu</a></li>
-                    <li><a href="/events">Events</a></li>
-                    <li><a href="/contact">Contact</a></li>
+                    <li><Link to="banner" spy={true} smooth={true}>Home</Link></li>
+                    <li><Link to="about" spy={true} smooth={true}>About</Link></li>
+                    <li><Link to="menu" spy={true} smooth={true}>Menu</Link></li>
+                    <li><Link to="our_values" spy={true} smooth={true}>Our Values</Link></li>
+                    <li><Link to="events" spy={true} smooth={true}>Events</Link></li>
+                    <li><Link to="contact" spy={true} smooth={true}>Contact</Link></li>
                 </ul>
             </header>
             <section className="banner" id="banner">
@@ -23,9 +25,11 @@ const NavBar = () => {
                     <p>
                         At Iqhude African Cuisine we have our secret ingredient which makes us a very special african cuisine in South Africa.
                         We always know our customer's needs and what they prefer, we make various african dishes in which you can choose from,
-                        we promise you once you taste our food you will definitely want more.
+                        we promise you once you taste our food you will definitely want more!
                 </p>
-                    <a href="/" className="btn">Our Menu</a>
+                    <Link to="menu" spy={true} smooth={true} className="btn">
+                        Our Menu
+                    </Link>
                 </div>
             </section>
         </>

@@ -7,7 +7,7 @@ const Contact = () => {
             <section className="contact" id="contac">
                 <div className="title">
                     <h2 className="titleText"><span>C</span>ontact Us</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                    <p>For any complaints/compliments or order/catering enquiries, fill in this form and we'll get back to you asap.</p>
                 </div>
                 <div className="contactForm">
                     <h3>Send Message</h3>

@@ -9,7 +9,7 @@ const Menu = () => {
         <section className="menu" id="menu">
             <div className="title">
                 <h2>Our <span>M</span>enu</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+                <p>These are some of the dishes we serve on a daily basis..</p>
             </div>
             <div className="content">
                 <div className="box">
@@ -17,7 +17,7 @@ const Menu = () => {
                         <img src={Beef} alt="Menu 1" />
                     </div>
                     <div className="text">
-                        <h3>Beef Stew</h3>
+                        <p>Beef Stew and Samp</p>
                     </div>
                 </div>
                 <div className="box">
@@ -25,7 +25,7 @@ const Menu = () => {
                         <img src={Mleqwa} alt="Menu 2" />
                     </div>
                     <div className="text">
-                        <h3>Mleqwa with Steamed Bread</h3>
+                        <p>Mleqwa with Steamed Bread</p>
                     </div>
                 </div>
                 <div className="box">
@@ -33,7 +33,7 @@ const Menu = () => {
                         <img src={Pense} alt="Menu 3" />
                     </div>
                     <div className="text">
-                        <h3>Tripe with Samp</h3>
+                        <p>Tripe with Samp</p>
                     </div>
                 </div>
                 <div className="box">
@@ -41,7 +41,7 @@ const Menu = () => {
                         <img src={Pense} alt="Menu 3" />
                     </div>
                     <div className="text">
-                        <h3>Tripe with Samp</h3>
+                        <p>Tripe with Samp</p>
                     </div>
                 </div>
                 <div className="box">
@@ -49,7 +49,7 @@ const Menu = () => {
                         <img src={Pense} alt="Menu 3" />
                     </div>
                     <div className="text">
-                        <h3>Tripe with Samp</h3>
+                        <p>Tripe with Samp</p>
                     </div>
                 </div>
                 <div className="box">
@@ -57,7 +57,7 @@ const Menu = () => {
                         <img src={Pense} alt="Menu 3" />
                     </div>
                     <div className="text">
-                        <h3>Tripe with Samp</h3>
+                        <p>Tripe with Samp</p>
                     </div>
                 </div>
             </div>

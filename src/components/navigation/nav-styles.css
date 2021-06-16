@@ -24,7 +24,13 @@ body {
     align-items: center;
     background: url('../../assets/background-img.jpg');
     background-size: cover;
-    opacity: 0.8;
+    /* opacity: 0.1; */
+}
+
+.header {
+    color: black;
+    background-color: transparent;
+    position: relative;
 }
 
 .banner .content {
@@ -57,6 +63,7 @@ body {
 
 .btn:hover {
     letter-spacing: 6px;
+    cursor: pointer;
 }
 
 header {
@@ -96,6 +103,7 @@ header .navigation {
 header .navigation li {
     list-style: none;
     margin-left: 30px;
+    cursor: pointer;
 }
 
 header .navigation li a {

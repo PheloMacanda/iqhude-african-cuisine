@@ -1,0 +1,50 @@
+.title {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.title h2 span {
+    color: rgb(218, 165, 32);
+}
+
+.our_values .content {
+    display: flex;
+    justify-content: center;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+    margin-top: 40px;
+}
+
+.our_values .content .card {
+    margin: 3px 0 0 25px;
+    width: 25%;
+    transition: 0.35s;
+    box-shadow: 0 5px 35px rgba(0,0,0,0.2);
+}
+
+.our_values .content .card .heading {
+    text-align: center;
+    color: teal;
+}
+
+.our_values .content .card .heading2 {
+    text-align: center;
+    color: maroon;
+}
+
+.our_values .content .card .heading3 {
+    text-align: center;
+    color: greenyellow;
+}
+
+.our_values .content .card p {
+    padding: 10px 15px;
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,2.2);
+    cursor: pointer;
+}
