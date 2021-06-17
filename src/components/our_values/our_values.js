@@ -14,14 +14,14 @@ const OurValues = () => {
                 </p>
             </div>
             <div className="content">
-                <div class="card">
+                <div className="card">
                     <img src={IqhudeLogo} alt="Our Logo" style={{ width: '100%' }} />
                     <h4 className="heading">
                         <b>Vision</b>
                     </h4>
                     <p>To be a known brand in serving memorable traditional foods.</p>
                 </div>
-                <div class="card">
+                <div className="card">
                     <img src={IqhudeLogo} alt="Our Logo" style={{ width: '100%' }} />
                     <h4 className="heading2">
                         <b>Mission</b>
@@ -31,7 +31,7 @@ const OurValues = () => {
                         Conduct regular trainings for our employees
                     </p>
                 </div>
-                <div class="card">
+                <div className="card">
                     <img src={IqhudeLogo} alt="Our Logo" style={{ width: '100%' }} />
                     <h4 className="heading3">
                         <b>Objectives</b>
