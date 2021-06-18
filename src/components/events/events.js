@@ -1,6 +1,8 @@
 import './events.css';
 import Group from '../../assets/white-group.jpg'; 
-import Catering from '../../assets/catering1.jpg';
+import HHPSizwe from '../../assets/hhp-sizwe.jpg';
+import HouseCater from '../../assets/house-cater.jpg';
+import CateringEvent from '../../assets/event.jpg';
 
 const Events = () => {
 
@@ -22,42 +24,26 @@ const Events = () => {
                     </div>
                     <div className="box">
                         <div className="imgBx">
-                            <img src={Catering} alt="Event" />
+                            <img src={HHPSizwe} alt="Event" />
                         </div>
                         <div className="text">
-                            <h3>Catering</h3>
+                            <h3>Sizwe with HHP</h3>
                         </div>
                     </div>
                     <div className="box">
                         <div className="imgBx">
-                            <img src={Catering} alt="Event" />
+                            <img src={HouseCater} alt="Event" />
                         </div>
                         <div className="text">
-                            <h3>Catering</h3>
+                            <h3>Tourists enjoying african meals</h3>
                         </div>
                     </div>
                     <div className="box">
                         <div className="imgBx">
-                            <img src={Catering} alt="Event" />
+                            <img src={CateringEvent} alt="Event" />
                         </div>
                         <div className="text">
-                            <h3>Catering</h3>
-                        </div>
-                    </div>
-                    <div className="box">
-                        <div className="imgBx">
-                            <img src={Catering} alt="Event" />
-                        </div>
-                        <div className="text">
-                            <h3>Catering</h3>
-                        </div>
-                    </div>
-                    <div className="box">
-                        <div className="imgBx">
-                            <img src={Catering} alt="Event" />
-                        </div>
-                        <div className="text">
-                            <h3>Catering</h3>
+                            <h3>Catering Event</h3>
                         </div>
                     </div>
                 </div>

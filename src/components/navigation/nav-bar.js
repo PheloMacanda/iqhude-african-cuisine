@@ -5,11 +5,14 @@ const NavBar = () => {
 
     return (
         <>
+           
+            <input type="checkbox" id="check" />
+            <label htmlFor="check">
+                <div className="menuToggle">
+                </div>
+            </label>
             <header className="header">
                 <a href="/" className="logo">Iqhude African Cuisine<span>.</span></a>
-                <div className="menuToggle">
-                    
-                </div>
                 <ul className="navigation">
                     <li><Link to="banner" spy={true} smooth={true}>Home</Link></li>
                     <li><Link to="about" spy={true} smooth={true}>About</Link></li>
@@ -26,7 +29,7 @@ const NavBar = () => {
                         At Iqhude African Cuisine we have our secret ingredient which makes us a very special african cuisine in South Africa.
                         We always know our customer's needs and what they prefer, we make various african dishes in which you can choose from,
                         we promise you once you taste our food you will definitely want more!
-                </p>
+                    </p>
                     <Link to="menu" spy={true} smooth={true} className="btn">
                         Our Menu
                     </Link>

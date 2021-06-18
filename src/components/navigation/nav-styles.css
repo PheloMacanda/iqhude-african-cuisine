@@ -112,7 +112,11 @@ header .navigation li a {
     font-weight: 300;
 }
 
-@media (max-width: 991px) {
+#check {
+    display: none;
+}
+
+@media (max-width: 740px) {
 
     header ,
     header .sticky {
@@ -121,6 +125,18 @@ header .navigation li a {
 
     header .navigation {
         display: none;
+    }
+
+    .header .navigation li {
+        list-style: none;
+        margin-left: 0;
+    }
+
+    .header .navigation li {
+        text-decoration: none;
+        color: #111;
+        font-size: 1.6em;
+        font-weight: 300;
     }
 
     .menuToggle {
@@ -133,5 +149,55 @@ header .navigation li a {
         background-position: center;
         cursor: pointer;
     }
+
+    .menuToggle {
+        float: right;
+        padding: 5px 0 0 100px;
+    }
+
+    #check:checked ~ header .navigation {
+        width: 100%;
+        height: 300px;
+        position: flex;
+        top: 0;
+        left: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        background: #fff;
+        transition: 0.5s;
+    }
+
+    #check:checked ~ ul {
+        width: 100%;
+        height: 100%;
+        position: flex;
+        top: 0;
+        left: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        background: #fff;
+        transition: 0.5s;
+    }
+
+    nav ul li {
+        display: block;
+    }
+
+    #check:checked ~ header .logo {
+        display: none;
+    }
+
+    /* .menuToggle:active {
+        background: url('../../assets/close.jpg');
+        background-size: 30px;
+        background-repeat: no-repeat;
+        background-position: center;
+        cursor: pointer;
+    } */
+
 }
 
