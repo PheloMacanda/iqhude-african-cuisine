@@ -61,7 +61,7 @@ const Contact = () => {
                     <p>For any complaints/compliments or order/catering enquiries, fill in this form and we'll get back to you asap.</p>
                 </div>
                 <form className="contactForm" onSubmit={sendQuery}>
-                    <h3>Send Message</h3>
+                    <h3 style={{ paddingLeft: '1rem'}}>Send Message</h3>
                     <div className="inputBox">
                         <input value={name} type="text" placeholder="Name" onChange={(e) => setVal({ ...val, name: e.target.value })} />
                     </div>

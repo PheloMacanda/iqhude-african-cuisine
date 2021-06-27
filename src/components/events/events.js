@@ -1,5 +1,5 @@
 import './events.css';
-import Group from '../../assets/white-group.jpg'; 
+import Group from '../../assets/white-group.jpg';
 import HHPSizwe from '../../assets/hhp-sizwe.jpg';
 import HouseCater from '../../assets/house-cater.jpg';
 import CateringEvent from '../../assets/event.jpg';
@@ -46,6 +46,9 @@ const Events = () => {
                             <h3>Catering Event</h3>
                         </div>
                     </div>
+                </div>
+                <div className="title">
+                    <a href="/events" className="btn">View All</a>
                 </div>
             </section>
         </>

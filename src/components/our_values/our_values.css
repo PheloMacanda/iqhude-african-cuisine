@@ -50,9 +50,10 @@
 }
 
 @media (max-width: 740px) {
+
     .our_values .content .card {
-        margin: 15px 0 0 25px;
-        width: 40%;
+        margin: 15px 0 0 0;
+        width: 100%;
         transition: 0.35s;
         box-shadow: 0 5px 35px rgba(0,0,0,0.2);
     }

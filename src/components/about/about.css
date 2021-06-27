@@ -56,4 +56,9 @@ section {
         object-fit: cover;
         padding: 20px 0 0 0;
     }
+
+    .row .col50 {
+        position: relative;
+        width: 100%;
+    }
 }
