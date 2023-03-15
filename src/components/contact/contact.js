@@ -19,38 +19,39 @@ const Contact = () => {
 
     const sendQuery = (event) => {
         event.preventDefault();
+        alert('Query Submitted! The Iqhude African Cuisine Team will get back to you ASAP.'); 
 
-        fetch('http://localhost:8080/api/v1/queries', {
-            method: "POST",
-            headers: {
-                "Content-Type": "application/json"
-            },
-            body: JSON.stringify({
-                name,
-                email,
-                cellNumber,
-                message
-            })
-        })
-        .then((response) => {
-            console.log(response.json());
+        // fetch('http://localhost:8080/api/v1/queries', {
+        //     method: "POST",
+        //     headers: {
+        //         "Content-Type": "application/json"
+        //     },
+        //     body: JSON.stringify({
+        //         name,
+        //         email,
+        //         cellNumber,
+        //         message
+        //     })
+        // })
+        // .then((response) => {
+        //     console.log(response.json());
 
-            if(response.status === 200 || response.status === 201) {
-               alert('Query Submitted! The Iqhude African Cuisine Team will get back to you ASAP.'); 
+        //     if(response.status === 200 || response.status === 201) {
+        //        alert('Query Submitted! The Iqhude African Cuisine Team will get back to you ASAP.'); 
 
-               setVal({
-                   name: '',
-                   email: '',
-                   cellNumber: '',
-                   message: ''
-               })
-            }
+        //        setVal({
+        //            name: '',
+        //            email: '',
+        //            cellNumber: '',
+        //            message: ''
+        //        })
+        //     }
             
-        })
-        .catch((err) => {
-            alert(err.message);
-            return err;
-        })
+        // })
+        // .catch((err) => {
+        //     alert(err.message);
+        //     return err;
+        // })
     }
 
     return (
